@@ -1,0 +1,129 @@
+
+ 
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+   
+    
+}
+#navbar{
+    border-bottom: 1px solid lightgrey;
+    width: 90vw;
+    margin: auto;
+
+}
+#searchbar{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: 40vw;
+}
+#searchbar>input{
+    border: none;
+    background-color: transparent;
+    width: 95%;
+    height: 40px;
+
+}
+#delivey>h5{
+    font-weight: 800;
+}
+#btn{
+    margin-bottom: 10px;
+}
+#image{
+    overflow: hidden;
+    width: 80vw;
+}
+#section3{
+    
+    width: 80vw;
+    margin: auto;
+   
+}
+#hussen{
+    
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding:10px;
+}
+/* #hussen2{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+} */
+#scrollbar{
+    width: 80vw;
+    margin: auto;
+}
+.scroll{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+.scroll>img{
+   display: inline-block;
+   
+
+}
+#lasts{
+    width: 80vw;
+    margin:auto;
+    
+}
+.scrollable_div>img{
+    display: inline-block;
+
+}
+.scrollable_div{
+    
+    
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+   
+   
+    
+}
+.my-card{
+    width: 200px;
+    display: inline-block !important;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+
+
+@media screen and (max-width:768px) {
+    #navbar{
+        flex-direction:column ;
+       padding: 0px;
+       
+        margin-top: 10px;
+        
+    }
+    #delivery{
+        margin-top: 10px;
+        text-align: center;
+    }
+    #searchbar{
+        margin-top: 10px;
+        width: 90vw;
+    }
+    #searchbar>input{
+        margin-top: 10px;
+        width:auto;
+    }
+    #imagesect{
+        margin-top: 30px;
+    }
+
+}
